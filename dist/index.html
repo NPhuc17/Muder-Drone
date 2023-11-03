@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="/dist/style.css" rel="stylesheet">
     <title>Murder Drones</title>
     <link rel="icon" type="image/x-icon" href="./img/dfttqaq-5e7c9a31-9076-4bfa-8b3c-e63fad074579.png">
 </head>
 
 <body>
     <header class=" bg-gray-400">
-        <nav class="flex mx-32 justify-between">
+        <nav class="flex justify-between sm:mx-32 mx-8">
             <!-- <h1 class="font-extrabold text-white text-[18px]">Header Logo</h1> -->
             <img src="./img/dfttqaq-5e7c9a31-9076-4bfa-8b3c-e63fad074579.png" alt="logo" class="h-[100px]">
             <ul class="flex justify-end gap-4 items-center">
@@ -19,22 +19,23 @@
                 <li><a class="hover:text-murder_purple text-[18px]" href="#call">[REDACTED]</a></li>
             </ul>
         </nav>
-        <div class="flex mx-32 mt-20 justify-between pb-20">
+        <div class="flex sm:mt-20 mt-5 justify-between sm:mx-32 mx-8 pb-20 flex-col sm:flex-row">
             <div class="pr-2">
-                <h1 class="font-extrabold text-white text-[48px] ">This page is about a serie<span
-                        class="block leading-7 text-yellow_neon">Murder Drones</span></h1>
+                <h1 class="font-extrabold text-white sm:text-[48px] text-[22px]">This page is about a serie<span
+                        class="block  text-yellow_neon mt-[-1rem] sm:text-[48px] text-[22px]">Murder Drones</span></h1>
                 <p class="mt-2 text-justify">The core collapse of an exoplanet known as Copper 9, owned by a mining corporation, causes the planet to freeze over, wiping out all biological life, including humans, in the process. Service robots left by humanity try to eke out a new civilization, but killer robots developed by the mining corporation that caused the extinction event, following their programming to kill the remaining rogue robots not following company protocols, massacring hundreds of service robots everyday. The story begins when a service bot befriends a killer robot, who then work together to escape the planet.
                 </p>
-                <button class="bg-blue-500 py-[10px] px-[30px] font-extrabold text-white rounded-xl mt-2"><a href="https://shorturl.at/btKPS" target="_blank" rel="noopener noreferrer">Watch here</a></button>
+                <button class="bg-blue-500 py-[10px] px-[30px] font-extrabold text-white rounded-xl mt-2 mb-4 sm:mb-0"><a href="https://shorturl.at/btKPS" target="_blank" rel="noopener noreferrer">Watch here</a></button>
             </div>
-            <img src="./img/maxresdefault.jpg" alt="" class="h-[330px]">
+            <img src="./img/maxresdefault.jpg " alt="" class="h-[330px] w-[100%] object-cover object-bottom">
+            <!--  max-w-[620px]-->
             </div>
         </div>
     </header>
 
     <div id="body" class="">
         <h1 class="text-center text-[36px] mb-4 font-extrabold">Meet the Gang</h1>
-        <div class="flex justify-evenly py-10">
+        <div class="flex justify-evenly py-10 sm:flex-row flex-col items-center">
             <div>
                 <div class="border-[1px] border-yellow_neon h-[220px] w-[220px] rounded-3xl hover:shadow-neon"
                 style="background-image: url('./img/Image_(13).png')">
@@ -63,15 +64,15 @@
         </div>
     </div>
 
-    <div id="quote" class="h-[250px] bg-murder_purple flex justify-center items-center">
-        <div class="mx-48 bg-gray-500 h-[100px] p-2">
-            <q class="italic font-light text-center block text-[24px]">Please, don't feed me my own entrails in front of my family.</q>
-            <p class="text-right font-bold">- Random Worker Drone</p>
+    <div id="quote" class="bg-murder_purple flex justify-center items-center py-10">
+        <div class="sm:mx-48 mx-4 bg-gray-500 p-4">
+            <q class="italic font-light text-center block sm:text-[24px] text-[12px]">Please, don't feed me my own entrails in front of my family.</q>
+            <p class="text-right font-bold sm:text-[1.025rem] text-[12px]">- Random Worker Drone</p>
         </div>
     </div>
  
     <div id="call" class=" bg-gray-400 flex justify-around items-center py-10">
-        <div class="bg-yellow_neon h-[100px] flex flex-row p-40">
+        <div class="bg-yellow_neon flex flex-row p-40">
             <div>
                 <h1>[REDACTED]</h1>
                 <p>This section is being [REDACTED]</p>
@@ -84,7 +85,7 @@
         </div>
     </div>
 
-    <footer class="flex flex-col justify-center items-center bg-black">
+    <footer class="flex flex-col justify-center items-center bg-black max-w-[100vw]">
         <img src="./img/GlitchProductionsLogo.png" alt="studio" class="h-[130px]">
         <div class="italic font-extralight text-white text-[12px] p-2">
             <p>This serie belong to GLITCH PRODUCTIONS</p>
