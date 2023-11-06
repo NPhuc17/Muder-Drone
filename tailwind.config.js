@@ -14,7 +14,9 @@ module.exports = {
         'custom_bd':'100% 0% 100% 0% / 0% 50% 65% 100% ',
       },
       backgroundImage:{
-        "N":"url('./src/img/Image_(13).png')",
+        "N":"url('img/N.png')",
+        "uzi":"url('img/uzi.png')",
+        "V":"url('img/Vcutout.png')",
       },
     },
   },
